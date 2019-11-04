@@ -1,0 +1,21 @@
+{
+  "header": {
+    "override": {
+      "overrideDetails": [
+
+      ]
+    }},
+
+  "body":
+  {
+
+    "debitAccountId": "10995",
+    "debitCurrencyId": "USD",
+    "debitAmount": 1000,
+    "creditAccountId": "11193",
+    "creditCurrency": "USD",
+    "transactionType": "AC",
+    "orderingBank": "TEXT"
+
+  }
+}

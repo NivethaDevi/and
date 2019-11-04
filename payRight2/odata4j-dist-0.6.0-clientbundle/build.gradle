@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('odata4j-dist-0.6.0-clientbundle.jar'))

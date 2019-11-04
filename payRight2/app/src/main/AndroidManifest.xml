@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.payright">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pay"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+
+        >
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Dashboard">
+        </activity>
+        <activity android:name=".signup">
+        </activity>
+        <activity android:name=".DashboardMain">
+        </activity>
+        <activity android:name=".Profile">
+        </activity>
+        <activity android:name=".EditProfile">
+        </activity>
+        <activity android:name=".EmiPrediction">
+        </activity>
+        <activity android:name=".chatbotActivity"/>
+
+    <activity android:name=".Account"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+        <TextView
+            android:id="@+id/userid"
+            android:layout_below="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="UserID:"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#026816"
+            />
+        <TextView
+            android:id="@+id/account"
+            android:layout_below="@+id/userid"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Primary account No:"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#026816"
+            />
+        <TextView
+            android:id="@+id/accountemi"
+            android:layout_below="@+id/account"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="EMI account No:"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#026816"
+            />
+        <TextView
+            android:id="@+id/gender"
+            android:layout_below="@+id/accountemi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Gender:"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#026816"
+            />
+        <TextView
+            android:id="@+id/Smoker"
+            android:layout_below="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Smoking:"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#026816"
+            />
+        <TextView
+            android:id="@+id/dob"
+            android:layout_below="@+id/Smoker"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="DOB:"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#026816"
+            />
+
+        <TextView
+            android:id="@+id/height"
+            android:layout_below="@+id/dob"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Height:"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#026816"
+            />
+        <TextView
+            android:id="@+id/weight"
+            android:layout_below="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Weight:"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#026816"
+            />
+        <TextView
+            android:id="@+id/salary"
+            android:layout_below="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Salary: ...Yet to be received..."
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#026816"
+            />
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_top"
+        app:menu="@menu/nav_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

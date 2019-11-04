@@ -1,0 +1,2 @@
+include ':app', ':bradmax-sdk', ':odata4j-0.7.0-clientbundle'
+rootProject.name='payRight'

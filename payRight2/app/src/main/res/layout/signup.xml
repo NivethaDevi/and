@@ -1,0 +1,53 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+    android:background="#ffffff"
+    android:id="@+id/relative_layout"
+ tools:context = ".MainActivity">
+
+        <include
+            layout="@layout/toolbar" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:hint="username"
+        />
+
+    <EditText
+        android:id="@+id/pass_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:inputType="textPassword"
+        android:hint="password"/>
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass_word"
+        android:inputType="date"
+        android:hint="Date of birth(DD/MM/YYYY)"/>
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dob"
+        android:inputType="text"
+        android:hint="gender"/>
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gender"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:text="Sign Up"
+        android:textColor="@android:color/primary_text_light"/>
+
+    </RelativeLayout>

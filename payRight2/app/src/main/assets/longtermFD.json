@@ -1,0 +1,72 @@
+{
+  "header": {
+    "override": {
+      "overrideDetails": [
+        {
+          "options": [
+            "RECEIVED",
+            "NOT RECEIVED"
+          ],
+          "description": "Have you received Deposit Agreement/AAA*207 from 100112}RECEIVED_NOT RECEIVED",
+          "id": "DM.CONFIRM.DOC",
+          "type": "Warning",
+          "responseCode": "RECEIVED"
+        },
+        {
+          "description": "Customer does not maintain any relationship",
+          "id": "AA-CUSTOMER.NOT.MAIN.ANY.RELATION",
+          "type": "Override"
+        },
+        {
+
+          "options": [
+            "RECEIVED",
+            "NOT RECEIVED"
+          ],
+          "description": "Have you received Deposit Agreement/AAA*207 from 100112}RECEIVED_NOT RECEIVED",
+          "id": "DM.CONFIRM.DOC",
+          "type": "Warning",
+          "responseCode": "RECEIVED"
+        },
+        {
+          "options": [
+            "RECEIVED",
+            "NOT RECEIVED"
+          ],
+          "description": "Have you received Deposit Agreement/AAA*207 from 100182}RECEIVED_NOT RECEIVED",
+          "id": "DM.CONFIRM.DOC",
+          "type": "Warning",
+          "responseCode": "RECEIVED"
+        }
+
+      ]
+    }
+  },
+  "body": {
+    "partyIds": [
+      {
+        "partyId": "100112"
+      }
+    ],
+    "currency": "USD",
+    "partyRoles": [
+      {
+        "partyRole": "OWNER"
+      }
+    ],
+
+    "commitment":
+    {
+      "term": "5Y",
+      "amount": "25000"
+    },
+    "settlement": {
+      "settlement": [
+        {
+          "payinSettlement": "NO",
+          "payoutSettlement": "NO"
+        }
+      ]
+    }
+  }
+}

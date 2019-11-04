@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "172872417170",
+    "firebase_url": "https://payright-34596.firebaseio.com",
+    "project_id": "payright-34596",
+    "storage_bucket": "payright-34596.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172872417170:android:e5d3a4bee73b349c8ccb4b",
+        "android_client_info": {
+          "package_name": "com.example.payright"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172872417170-5dkg2lpm30skmfiivrvdg3l500dgg4f0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGSqWzvFZyWHqM4aDoi1N_YFdrqenCBGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172872417170-5dkg2lpm30skmfiivrvdg3l500dgg4f0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

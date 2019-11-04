@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+    <item android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        android:title="Profile"/>
+    <item
+        android:id="@+id/dash_board"
+        android:title="EMI"
+        android:icon="@drawable/dash_board"/>
+    <item
+        android:id="@+id/Health"
+        android:title="Medical forecast"
+        android:icon="@drawable/health"
+        android:visible="false"
+        />
+    <item android:id="@+id/acct"
+        android:icon="@drawable/home"
+        android:title="Account and Transactions"
+        android:visible="false"/>
+    <item
+    android:id="@+id/EditProfile"
+    android:title="Edit Profile"
+    android:icon="@drawable/profile"/>
+
+
+</menu>

@@ -1,0 +1,20 @@
+{
+  "header": {},
+  "body": {
+    "displayNames": [
+      {
+        "displayName": "TEMP1"
+      }
+    ],
+    "customerNames": [
+      {
+        "customerName": "TEMP3sdf"
+      }
+    ],
+
+    "language": 1,
+    "customerMnemonic": "TEMP1",
+    "sectorId": 1001
+
+  }
+}

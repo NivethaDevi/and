@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".EditProfile">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <EditText
+        android:id="@+id/salary"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:hint="Salary(Monthly)"
+
+        android:gravity="center"
+
+        />
+        <EditText
+            android:id="@+id/Height"
+            android:layout_below="@+id/salary"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:hint="Height(in cm)"
+
+            android:gravity="center"
+
+            />
+        <EditText
+            android:id="@+id/Weight"
+            android:layout_below="@+id/Height"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Weight(in kg)"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:gravity="center"
+            />
+
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weight"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:text="Submit"
+        android:textColor="@android:color/primary_text_light"/>
+
+    </RelativeLayout>
+

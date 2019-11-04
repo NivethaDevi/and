@@ -1,0 +1,10 @@
+{
+  "header": {},
+  "body":
+  {
+    "customerId":"100100",
+    "accountOfficer":"6",
+    "Currency":"USD"
+
+  }
+}
